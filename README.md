@@ -1,4 +1,4 @@
-![Scala CI](https://github.com/Garfeello/Stay-awhile-and-listen/workflows/Scala%20CI/badge.svg)
+![Java CI with Maven](https://github.com/Garfeello/Stay-awhile-and-listen/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 # Stay-awhile-and-listen
 Stay awhile and listen is a small app for quotes from D2 :)
