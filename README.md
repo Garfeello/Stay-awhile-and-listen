@@ -1,3 +1,5 @@
+![Scala CI](https://github.com/Garfeello/Stay-awhile-and-listen/workflows/Scala%20CI/badge.svg)
+
 # Stay-awhile-and-listen
 Stay awhile and listen is a small app for quotes from D2 :)
 
