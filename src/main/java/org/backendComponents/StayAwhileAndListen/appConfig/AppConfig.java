@@ -6,18 +6,16 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ConversionServiceFactoryBean;
 import org.springframework.core.convert.ConversionService;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.HashSet;
 import java.util.Set;
 
 @Configuration
 @ComponentScan("org.backendComponents.StayAwhileAndListen")
-public class AppConfig implements WebMvcConfigurer {
+public class AppConfig {
 
     public Set<Converter> getConverters() {
-        Set<Converter> converters = new HashSet<>();
-        return converters;
+        return new HashSet<>();
     }
 
     @Bean(name = "conversionService")
@@ -27,5 +25,4 @@ public class AppConfig implements WebMvcConfigurer {
         factoryBean.afterPropertiesSet();
         return factoryBean.getObject();
     }
-
 }

@@ -9,13 +9,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/stayAwhileAndListen")
+@RequestMapping("/stayAwhileAndListen/character")
 @CrossOrigin(origins = "http://localhost:3000")
-public class QuotesController {
+public class CharacterController {
 
     private final Diablo2QuotesRepository diablo2QuotesRepository;
 
-    public QuotesController(Diablo2QuotesRepository diablo2QuotesRepository) {
+    public CharacterController(Diablo2QuotesRepository diablo2QuotesRepository) {
         this.diablo2QuotesRepository = diablo2QuotesRepository;
     }
 
