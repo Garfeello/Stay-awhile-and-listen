@@ -1,3 +1,6 @@
 [submodule "stay-awhile-and-listen-springboot"]
 	path = stay-awhile-and-listen-springboot
 	url = git@github.com:Garfeello/stay-awhile-and-listen-springboot.git
+[submodule "stay-awhile-and-listen-reactjs"]
+	path = stay-awhile-and-listen-reactjs
+	url = git@github.com:Garfeello/stay-awhile-and-listen-reactjs.git
