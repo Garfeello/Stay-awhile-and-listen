@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  stay-awhile-mysql:
+    image: mysql:5.7
+    container_name: stay-awhile-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=stay_awhile_and_listen
+
+  stay-awhile-springboot:
+    build: ./stay-awhile-and-listen-springboot
+    container_name: stay-awhile-springboot
+    depends_on:
+      - stay-awhile-mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://stay-awhile-mysql:3306/stay_awhile_and_listen?useSSL=false&autoReconnect=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    
