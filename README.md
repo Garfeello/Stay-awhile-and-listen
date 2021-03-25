@@ -3,7 +3,7 @@
 Stay awhile and listen is a small app for quotes from D2 :) It was ment to be simple and showcase my proficiency using Docker and ReactJs.
 
 ## Description
-When you hear 'give me amazing game quotes', and you may think about D2 look no further, check Stay awhile and listen App ! :) Howver this app can use every music file you wish to use !
+When you hear 'give me amazing game quotes', and you may think about D2 look no further, check Stay awhile and listen App ! :) However this app can use every music file you wish to use !
 
 ## Technologies
 - Java EE
