@@ -19,7 +19,7 @@ services:
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root
     ports:
-      - 8080:8888
+      - 8888:8888
 
   stay-awhile-react:
     build: ./stay-awhile-and-listen-reactjs
@@ -30,4 +30,4 @@ services:
       - CHOKIDAR_USEPOLLING=true
     stdin_open: true
     ports:
-      - 3001:3000
+      - 3000:3000
