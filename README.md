@@ -15,4 +15,5 @@ When you hear 'give me amazing game quotes', and you may think about D2 look no 
 - Email: <Kamil.Kuzbinski@gmail.com>
 - LinkedIn: www.linkedin.com/in/KamilKuzbinski
 
-ps. Still working on that:)
+
+
