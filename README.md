@@ -11,6 +11,28 @@ When you hear 'give me amazing game quotes', and you may think about D2 look no 
 - React.js
 - Docker for instalation.
 
+## Instalation
+1. go to springboot application and run 
+```
+mvn clean install -DskipTests
+```
+2. go to the main folder with docker compose file and run
+```
+docker-compose up
+```
+docker will do the rest :)
+
+## Usage
+
+
+
+
+
+
+
+
+
+
 ## Contact info
 - Email: <Kamil.Kuzbinski@gmail.com>
 - LinkedIn: www.linkedin.com/in/KamilKuzbinski
